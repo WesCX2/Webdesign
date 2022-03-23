@@ -2,4 +2,4 @@
 
 <h1>Project List<h1>
 
-<a href="project_1_/Hello_world/index.html">Project 1</a>
+<a href="project_1_/index.html" target="_blank">Project 1</a>
