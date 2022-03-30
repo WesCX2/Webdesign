@@ -7,7 +7,7 @@ body {
 #container {
     align-content: center;
     background-color: aquamarine;
-    width: 800px;
+    width: 800px auto;
     margin: 20px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #000;
@@ -27,7 +27,7 @@ header img {
 
 header h1 {
     align-content: center;
-    font-size: 2.5em;
+    font-size: 2.5em auto;
     text-align: center;
     color: brown;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
@@ -42,10 +42,10 @@ nav {
 
 nav a {
     display: inline-block;
-    background-color: #cef299;
-    height: 40px;
+    background-color: #20713b;
+    height: 40px auto;
     width: 175px;
-    font-size: 1.5em;
+    font-size: 1.5em auto;
     font-weight: bold;
     line-height: 40px;
     color: #89a2d3;
