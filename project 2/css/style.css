@@ -77,8 +77,8 @@ main h2 {
 
 main img {
     align-content: center;
-    display: block
-    width 20%;
+    display: block;
+    width: 20%;
     margin: 20px auto;
     background-color: #4c5973;
     padding: 20px;
