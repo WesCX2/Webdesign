@@ -48,15 +48,15 @@ nav a {
     font-size: 1.5em;
     font-weight: bold;
     line-height: 40px;
-    color: #4c5973;
+    color: #89a2d3;
     text-decoration: none;
-    border-radius: 20px 20px 0 0;
+    border-radius: 30px 30px 0 0;
     margin: 0 10px;
 }
 
 nav a:hover {
     align-content: center;
-    background-color: #4c5973;
+    background-color: #89a2d3;
     color:#cef299
 }
 
@@ -64,13 +64,13 @@ main {
     align-content: center;
     background-color: #cef299;
     padding: 20px;
-    margin: 0 20px 20px 20px;
+    margin: 0 30px 30px 3S0px;
 
 }
 
 main h2 {
     text-align: center;
-    color: #4c5973;
+    color: #89a2d3;
     font-size: 2em;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
@@ -78,9 +78,9 @@ main h2 {
 main img {
     align-content: center;
     display: block;
-    width: 20%;
+    width: 40%;
     margin: 20px auto;
-    background-color: #4c5973;
+    background-color: #89a2d3;
     padding: 20px;
     border-radius: 20px;
 }
@@ -88,20 +88,20 @@ main img {
 footer {
     background-color: #cef299;
     padding: 40px 0;
-    color:#f26060;
+    color:#771e1e;
     font-size: 1.5em;
     text-align: center;
     border-radius: 0 0 20px 20px;
 }
 
 .active {
-    background-color: #4c5973;
-    color:#cef299
+    background-color: #89a2d3;
+    color:#759b3d
 }
 
 .pro_head {
     text-align: center;
-    color:#f26060;
+    color:#771e1e;
     font-size: 1.5em;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
