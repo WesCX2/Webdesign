@@ -1,6 +1,7 @@
 body {
     background-color: #465dc8;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 }
 
 img {
@@ -14,6 +15,7 @@ img {
 #container {
     background-color: #7CA9F5;
     margin: 20px;
+    
 }
 
 header {
@@ -36,6 +38,7 @@ header h1 {
 .col h2 {
     text-align: center;
     font-size: 3em;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .col img {
@@ -51,6 +54,7 @@ footer {
     text-align: center;
     border-top: 4px solid #6C8F76;
     font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 @media(min-width: 768px) {
@@ -70,9 +74,27 @@ footer {
 }
 
 @media(min-width: 1024px) {
+   #containter {
+       width: 75%;
+       border-radius: 20px;
+   }
+   
     #flex {
         display: flex;
     }
 
-    
+    .col {
+        margin: 30px;
+        width: 100%;
+    }
+
+    .col img {
+        width: 50%;
+    }
+
+    .main_img {
+        display: block;
+        width: 30%;
+        margin: 40px auto;
+    }
 }
