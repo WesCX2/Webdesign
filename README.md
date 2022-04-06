@@ -6,4 +6,4 @@
 
 <a href="project2/index.html" target="_blank">Project 2</a>
 
-<a href="project3/index.html" target="_blank">Project 3</a>
+<a href="lab3/index.html" target="_blank">Project 3</a>
