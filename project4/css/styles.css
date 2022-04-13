@@ -84,7 +84,7 @@ section img, aside img {
     line-height: 40px;
     text-align: center;
     text-decoration: none;
-    font-size: 1.2 em;
+    font-size: 1.2em;
     margin: 10px auto;
     border-radius: 10px;
 }
@@ -112,7 +112,7 @@ audio, video {
 .gallery_img {
     border: 4px solid rgb(61, 174, 219);
     border-radius: 10px;
-    margin: 10 px auto;
+    margin: 10px auto;
 }
 
 table {
