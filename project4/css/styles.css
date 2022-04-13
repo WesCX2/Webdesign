@@ -41,7 +41,7 @@ nav li {
 
 nav li a{
     display: block;
-    background-color: aquamarine;
+    background-color: rgb(81, 149, 126);
     color: rgb(67, 184, 184);
     height: 40px;
     text-align: center;
@@ -66,9 +66,89 @@ nav, section, aside, .col, footer {
 
 h2, h3 {
     color: rgb(32, 63, 165);
-    text-shadow: ;
+    text-shadow: 2px 2px 2px;
+    font-size: 1.5em;
+    text-align: center;
 }
+
+section img, aside img {
+    width: 50%;
+}
+
+.button {
+    display: block;
+    background-color: rgb(99, 126, 153);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 175px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2 em;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(62, 210, 134);
+    text-shadow: 2px 2px 2px;
+}
+
+footer {
+    text-align: center;
+    color: rgb(51, 49, 47);
+}
+
 /* Tablet Styles */
+
+@media(min-width: 768px) {
+    header {
+        padding: 125px;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    nav {
+        text-align: center;
+        padding: 10px
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        width: 200px;
+    }
+
+    #upper_flex {
+        display:flex
+    }
+
+    section, aside {
+        width: 50%;
+    }
+
+    aside img {
+        width: 50%;
+    }
+
+    .col img {
+        width: 60%;
+        border-radius: 10px;
+        border: 4px solid rgb(81, 186, 160)
+    }
+
+
+}
 
 
 /* Desktop Styles */
+
+@media(min-width: 1024px) {
+    
+}
