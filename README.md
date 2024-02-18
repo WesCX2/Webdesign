@@ -1,4 +1,4 @@
-## WEBT 1320 Project Page
+## Weston Braddock Web Design
 
 <h1>Project List</h1>
 
