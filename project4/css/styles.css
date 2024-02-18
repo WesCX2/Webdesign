@@ -1,6 +1,7 @@
 /* Global Styles */
 body {
     background-color: blanchedalmond;
+    font-family: 'Radio Canada', sans-serif;
 }
 
 img {
@@ -9,12 +10,11 @@ img {
     margin: 0 auto;
 }
 
-
 /* Mobile Styles */
 
 #container {
     background-color: beige;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 header {
@@ -32,7 +32,7 @@ header h1 {
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 0%;
 }
 
 nav li {
@@ -42,26 +42,26 @@ nav li {
 nav li a{
     display: block;
     background-color: rgb(81, 149, 126);
-    color: rgb(67, 184, 184);
-    height: 40px;
+    color: rgb(17, 59, 59);
+    height: 30px;
     text-align: center;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 10px 0px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 nav li a:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(97, 160, 205);
     text-shadow: 2px 2px 2px;
 }
 
 nav, section, aside, .col, footer {
     background-color: bisque;
     padding: 10px;
-    margin: 10px;
+    margin: 10px auto;
     border: 4px solid rgb(71, 122, 204);
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 h2, h3 {
@@ -77,10 +77,10 @@ section img, aside img {
 
 .button {
     display: block;
-    background-color: rgb(99, 126, 153);
+    background-color: rgb(99, 145, 153);
     color: rgb(255, 255, 255);
     height: 40px;
-    width: 175px;
+    width: 130px;
     line-height: 40px;
     text-align: center;
     text-decoration: none;
@@ -90,7 +90,7 @@ section img, aside img {
 }
 
 .button:hover {
-    background-color: rgb(62, 210, 134);
+    background-color: rgb(81, 153, 194);
     text-shadow: 2px 2px 2px;
 }
 
@@ -99,11 +99,12 @@ footer {
     color: rgb(51, 49, 47);
 }
 
-.single_col{
+.single_col {
     width: 86%;
+    max-width: 900px; /* Set maximum width to prevent overflowing */
 }
 
-audio, video {
+.audio, video {
     display: block;
     margin: 20px auto;
     width: 75%;
@@ -121,7 +122,7 @@ table {
 
 /* Tablet Styles */
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
     header {
         padding: 125px;
     }
@@ -132,7 +133,7 @@ table {
 
     nav {
         text-align: center;
-        padding: 10px
+        padding: 10px;
     }
 
     nav li {
@@ -146,10 +147,11 @@ table {
     }
 
     #upper_flex {
-        display:flex
+        display: flex;
     }
 
-    section, aside {
+    section,
+    aside {
         width: 50%;
     }
 
@@ -158,21 +160,19 @@ table {
     }
 
     .col img {
-        width: 60%;
+        max-width: 100%; /* Adjusted to prevent image overflow */
         border-radius: 10px;
-        border: 4px solid rgb(81, 186, 160)
+        border: 4px solid rgb(81, 186, 160);
     }
-    .single_col{
+
+    .single_col {
         width: 100%;
     }
-
-
 }
-
 
 /* Desktop Styles */
 
-@media(min-width: 1024px) {
+@media (min-width: 1024px) {
     #container {
         width: 75%;
         margin: 20px auto;
@@ -187,38 +187,32 @@ table {
     nav li a {
         margin: 0 20px;
     }
-    
+
     #lower_flex {
         display: flex;
     }
 
     .col {
-        width: 100%;
+        width: 80%;
     }
 
     .col img {
+        max-width: 70%; /* Adjusted to prevent image overflow */
+    }
+
+    .single_col {
         width: 100%;
     }
-    .single_col {
-    width: 100%;
+
+    table,
+    tr,
+    td {
+        border: 2px solid rgb(66, 82, 161);
+        padding: 10px;
+        margin: 10px auto;
     }
 
-}
-
-table, tr, td {
-    border: 4px solid rgb(75, 140, 81);
-    padding: 10px;
-    margin: 10px;
-}
-
-table img {
-    width: 100%;
-}
-
-.gallery {
-    display: none;
-}
-
-table {
-    display: block;
+    .gallery {
+        display: none;
+    }
 }
