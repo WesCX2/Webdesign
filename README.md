@@ -14,4 +14,4 @@
 
 <a href="JobSite/index.html" target="_blank">Job Site</a>
 
-<a href="Java palindrome checker/index.html" target="_blank">Java project 1 palindrome</a>
+<a href="Java palindrome checker/index.html" target="_blank">Java Project 1 palindrome</a>
